@@ -74,3 +74,12 @@ Copy the passwrod and Login ArgoCD using **Username: admin** and **Password: <-e
 
 ![image](https://user-images.githubusercontent.com/113592437/221435815-8f4f7984-1987-42c1-979e-87af5935d326.png)
 
+## Benefits:
+
+1. Deployment can be done easy on the cluster, once the manifest are ready and can be deployed on cluster.
+2. Monitroing of cluster can be done easiy.
+3. Creation or deletion or trigger of the deployment or pods can be done easily.
+
+
+## Demo Video will be uploaded soon.
+
