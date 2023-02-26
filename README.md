@@ -39,5 +39,6 @@ Try to access the ArgoCD UI by running the https://ip-adresss:8092 or (localhost
 
 ![image](https://user-images.githubusercontent.com/113592437/221435255-4b8517b3-b33f-4b34-b479-ad2f6905b53a.png)
  
-**Optional: If your running your kubernetes cluster on any ec2-instance or EKS/AKS Services run the below command to convert the services for argocd-server into LoadBalancer.
-kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}'** 
+**Note: If your running your kubernetes cluster on any ec2-instance or EKS/AKS Services run the below command to convert the services for argocd-server into LoadBalancer.**
+
+**5. kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}'** 
