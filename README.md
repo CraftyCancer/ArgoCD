@@ -42,3 +42,22 @@ Try to access the ArgoCD UI by running the https://ip-adresss:8092 or (localhost
 **Note:** If your running your kubernetes cluster on any ec2-instance or EKS/AKS Services run the below command to convert the services for argocd-server into LoadBalancer
 
 **5. kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}'** 
+
+Lets extarct the password from the secrets, by running the below commad. 
+
+**6. kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d**
+
+Copy the passwrod and Login ArgoCD using **Username: admin** and **Password: <-extracted secret from step 6->**
+
+**Note: Change the password once you login**
+
+**Argo CD UI:**
+
+![image](https://user-images.githubusercontent.com/113592437/221435876-60fb48f1-7584-48f8-b450-4141e1fbcd5b.png)
+
+
+![image](https://user-images.githubusercontent.com/113592437/221435824-5674f5e7-e934-4978-9d5e-c9b0727fbc04.png)
+
+
+![image](https://user-images.githubusercontent.com/113592437/221435815-8f4f7984-1987-42c1-979e-87af5935d326.png)
+
