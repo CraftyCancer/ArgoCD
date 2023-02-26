@@ -19,6 +19,7 @@ Installtion of Argo CD is straight forward, we use the below raw-manifest provid
 - Run the below command on your exisiting kubernetes cluster.
 
 **kubectl create namespace argocd**
+
 **kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml**
 
 
