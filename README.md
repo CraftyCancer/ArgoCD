@@ -23,7 +23,7 @@ Installtion of Argo CD is straight forward, we use the below raw-manifest provid
 **2. kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml**
 
 
-Once the installtion is down, you will be able to see the pods running on your cluster on specified **namespace argocd**.
+Once the installtion is down, you will be able to see the pods running on our cluster on specified **namespace argocd**.
 
 **3. kubectl get pods -n argocd**
 
