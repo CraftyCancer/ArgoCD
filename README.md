@@ -28,3 +28,14 @@ Once the installtion is down, you will be able to see the pods running on our cl
 **3. kubectl get pods -n argocd**
 
 ![image](https://user-images.githubusercontent.com/113592437/221434779-632852c9-c9f0-4c4c-ad5b-aad0d323e28e.png)
+
+**Note: Port Forward needs to be done to access the ArgoCD UI. **
+
+**4. kubectl port-forward svc/argocd-server -n argocd 8092:443 ** 
+
+(The port forward can be done through manifest file as well).
+
+Try to access the ArgoCD UI by running the https://ip-adresss:8092 or (localhost) https://localhost:8092
+
+![image](https://user-images.githubusercontent.com/113592437/221435255-4b8517b3-b33f-4b34-b479-ad2f6905b53a.png)
+
