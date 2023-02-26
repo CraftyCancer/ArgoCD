@@ -70,7 +70,7 @@ Copy the passwrod and Login ArgoCD using **Username: admin** and **Password: <-e
 
 ![image](https://user-images.githubusercontent.com/113592437/221435824-5674f5e7-e934-4978-9d5e-c9b0727fbc04.png)
 
-
+**After the Sync or Referesh inside the project created we will able to see the deployment/service/pod**
 
 ![image](https://user-images.githubusercontent.com/113592437/221435815-8f4f7984-1987-42c1-979e-87af5935d326.png)
 
