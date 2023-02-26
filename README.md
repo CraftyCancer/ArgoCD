@@ -55,6 +55,11 @@ Copy the passwrod and Login ArgoCD using **Username: admin** and **Password: <-e
 
 ![image](https://user-images.githubusercontent.com/113592437/221435876-60fb48f1-7584-48f8-b450-4141e1fbcd5b.png)
 
+# Application Deployment 
+
+1. Use the provided deployment file to deploy the promtheus on your cluster.
+2. 
+
 
 ![image](https://user-images.githubusercontent.com/113592437/221435824-5674f5e7-e934-4978-9d5e-c9b0727fbc04.png)
 
