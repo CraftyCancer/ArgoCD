@@ -63,11 +63,13 @@ Copy the passwrod and Login ArgoCD using **Username: admin** and **Password: <-e
 3. Once connected, follow the deploy steps to deploy the application
    a. Provide the application name.
    b. Sync Policy ( Automatic or Manual) - Good to go with Manual.
-   c. Select the source for the repo.
+   c. Select the source for the repo and provide the path were the file is stored. 
    d. Select the destination were the deployment needs to be done (Kubernetes default svc)
    
 **Once deployed we will be able to see the below on UI**
+
 ![image](https://user-images.githubusercontent.com/113592437/221435824-5674f5e7-e934-4978-9d5e-c9b0727fbc04.png)
+
 
 
 ![image](https://user-images.githubusercontent.com/113592437/221435815-8f4f7984-1987-42c1-979e-87af5935d326.png)
