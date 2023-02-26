@@ -58,9 +58,15 @@ Copy the passwrod and Login ArgoCD using **Username: admin** and **Password: <-e
 # Application Deployment 
 
 1. Use the provided deployment file to deploy the promtheus on your cluster.
-2. 
-
-
+2. In two ways we can connect our repo and deploy application through ArgoCD.
+   a. Go to Settings -> Repositories -> Provide the repo details using SSH/HTTPS link from your repo (Github or Gitlab or any other).
+3. Once connected, follow the deploy steps to deploy the application
+   a. Provide the application name.
+   b. Sync Policy ( Automatic or Manual) - Good to go with Manual.
+   c. Select the source for the repo.
+   d. Select the destination were the deployment needs to be done (Kubernetes default svc)
+   
+**Once deployed we will be able to see the below on UI**
 ![image](https://user-images.githubusercontent.com/113592437/221435824-5674f5e7-e934-4978-9d5e-c9b0727fbc04.png)
 
 
